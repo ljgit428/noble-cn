@@ -1,0 +1,33 @@
+# ---- 游戏文件 / 版权内容：只放本地，绝不上传 ----
+/backup/
+/work/
+/release_build/
+*.assets
+*.resS
+level[0-9]*
+*.dll
+*.pdb
+*.exe
+
+# ---- 第三方二进制 / 字体：用 tools\fetch_deps.ps1 下载 ----
+/tools/xdelta3/
+/tools/BepInEx_win_x64*.zip
+*.zip
+*.otf
+*.ttf
+*.ttc
+
+# ---- 游戏文本 / 早期扫描输出 ----
+/scan*.json
+/tools/probe/api.txt
+/hello.txt
+/t.py
+
+# ---- 构建 / 缓存 / 日志 ----
+bin/
+obj/
+*.log
+*.bak
+*.b64
+_*
+__pycache__/
